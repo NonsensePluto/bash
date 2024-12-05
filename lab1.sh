@@ -1,0 +1,1 @@
+find . -maxdepth 1 -type d \( -perm 755 \) -printf "%p\n" > permissions.txt
